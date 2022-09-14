@@ -17,17 +17,17 @@
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
-lang:                  en
+lang:                  ko-KR, en-US
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 shotuple Blog
+title:                 shotuple의 블로그
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
- 프로그래밍 여정 기록
+ 여정 기록
 # A shorter description for the sidebar.
-tagline:               한걸음씩 나아가는 여정
+tagline:               한걸음씩 나아가는
 
 # A list of keywords for your blog
 keywords:              []
@@ -35,18 +35,20 @@ keywords:              []
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/img/logo.png
+logo:                  /assets/img/blog/prof.jpg
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`
-  name:                <WOO SEOK> <YIM>
-  email:               <shotuple@gmail.com>
+  name:                WOO SEOK YIM
+  email:                shotuple@gmail.com
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
 # Add links to the sidebar.
 menu:
+  - title:             Blog
+    url:              /blog/
   - title:             Example
     url:               /example/
   - title:             Documentation
@@ -78,7 +80,7 @@ paginate_path:         /:num/
 # Theme
 # ---------------------------------------------------------------------------------------
 
-#theme: jekyll-theme-hydejack
+theme: jekyll-theme-hydejack
 remote_theme: hydecorp/hydejack@v9
 
 
@@ -134,10 +136,11 @@ defaults:
       sitemap:         false
 
   # # You can use the following to enable comments on all posts.
-  # - scope:
-  #     type:            posts
-  #   values:
-  #     comments:        true
+#defaults:
+  - scope:
+      type:            posts
+    values:
+      comments:        true
 
   # `jekyll-seo-tag` will mark collection outputs as `BlogPosting`,
   # but we want them to be `WebPage`s:
@@ -173,6 +176,13 @@ kramdown:
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
 # disqus:                <username>
+comments:
+  provider:		utterances
+
+utterances:
+  repo:	"shotuple/shotuple.github.io"
+  issue-term:	"pathname"
+  theme:	"icy-dark"
 
 # Setting a tinyletter username will enable the newsletter subscription box.
 # PRO version only!
@@ -244,11 +254,11 @@ hydejack:
   no_breadcrumbs:      false
 
   # Set to `true` when building with the `--lsi` option
-  use_lsi:             true
+  use_lsi:             false
 
   # When using Google Analytics, set to `true` to display a cookie notice banner.
   # When enabled, no user-related data will be stored until the user gives consent.
-  cookies_banner:      false
+  cookies_banner:      true
 
   # Set to `true` if you would like to add a "Powered by Hydejack" link in the footer.
   # Note that this setting has no effect when using the free version.
@@ -324,7 +334,7 @@ plugins:
   - jekyll-feed
   - jekyll-optional-front-matter
   - jekyll-paginate
-  - jekyll-readme-index
+  - jekyll-readme-index       
   - jekyll-redirect-from
   - jekyll-relative-links
   - jekyll-seo-tag
