@@ -48,9 +48,12 @@ author:
 # Add links to the sidebar.
 menu:
   - title:             Blog
-    url:              /blog/
-  - title:	Study
-    url:	/study/
+    url:               /blog/
+  - title:             Study
+    url:               /study/
+    submenu:
+      - title: Baekjoon
+      - url: /baekjoon/
   - title:             Example
     url:               /example/
   - title:             Documentation
