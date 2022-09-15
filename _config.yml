@@ -49,6 +49,8 @@ author:
 menu:
   - title:             Blog
     url:              /blog/
+  - title:	Study
+	/study/
   - title:             Example
     url:               /example/
   - title:             Documentation
