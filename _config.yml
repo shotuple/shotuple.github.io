@@ -38,7 +38,7 @@ keywords:              []
 logo:                  /assets/img/blog/prof.jpg
 
 # This should be the same author as first entry in `_data/authors.yml`.
-author:
+author:	owner
   # Used by `jekyll-feed`
   name:                WOO SEOK YIM
   email:                shotuple@gmail.com
@@ -429,3 +429,12 @@ jekyll_compose:
       links:
         - title: Project Link
           url: https://example.com
+
+tipue_search:
+     include:
+         pages: false
+         collections: []
+     exclude:
+         files: [search.html, index.html, tags.html]
+         categories: []
+         tags: []
