@@ -50,7 +50,7 @@ menu:
   - title:             Blog
     url:              /blog/
   - title:	Study
-	/study/
+    url:	/study/
   - title:             Example
     url:               /example/
   - title:             Documentation
