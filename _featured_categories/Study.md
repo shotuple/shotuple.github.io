@@ -20,5 +20,6 @@ description: >
 # DON'T USE THIS SETTING IN YOUR CATEGORIES!
 sitemap: true
 ---
+*[Baekjoon]{:.heaeing.flip-tilte} --- 백준 문제 풀이
 
 [Baekjoon]: /baekjoon/
