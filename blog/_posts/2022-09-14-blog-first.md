@@ -26,7 +26,7 @@ Repository name: username.github.io로 생성합니다.
 ~~~
 
 ## 2. Repository clone
-### 아래 초록색 Code 버튼을 클릭하면 나오는 https 주소를 복사해줍니다!
+### 초록색 Code 버튼을 클릭하면 나오는 https 주소를 복사해줍니다!
 ![image](https://user-images.githubusercontent.com/105637541/190078338-5b2d3e99-33b5-4d34-b71f-0942c19941b6.png)
 
 ### git bash에서 
@@ -42,20 +42,20 @@ git clone 주소붙여넣기(shift+insert)
 ### Jekyll theme 다운로드   
 추천 테마 : <http://themes.jekyllrc.org/hydejack/>  
 
-### 혹은 아래에서 끌리는 theme 선택  
+### 혹은 다음 링크에서 끌리는 theme 선택  
 <http://jekyllthemes.org/>  
 <https://jekyllthemes.io/free>  
 <https://jamstackthemes.dev/ssg/jekyll/>  
 <https://jekyll-themes.com/free/>
 
-### 다운로드한 theme를 2에서 clone한 username.github.io 폴더에 넣어줍니다. (덮어쓰기)
+### 다운로드한 theme를 아까 2에서 clone한 username.github.io 폴더에 넣어줍니다. (덮어쓰기)
 
 ## 3.2 Ruby, jekyll 설치
 [Ruby 다운로드 링크](https://rubyinstaller.org/downloads/)  
 
 ![image](https://user-images.githubusercontent.com/105637541/190083336-38bccca4-9db0-427c-bcf5-c083620c5f90.png)  
 
-=> 표시와 함께 볼드된 링크를 다운로드합니다. Next만 누르면 설치 완료! 이후 MSYS2 설치도스에선 1을 입력하고 엔터합니다. 설치하면 Ruby 명령어를 cmd 창에서도 실행가능합니다!
+=> 표시와 함께 볼드된 링크를 다운로드합니다. Next만 누르면 설치 완료! 이후 MSYS2 설치도스에선 1을 입력하고 엔터합니다. 설치 시 Ruby 명령어를 cmd 창에서도 실행가능합니다!
 
 ## 4. 번들 설치, jekyll을 로컬 서버에 띄우기
 ![image](https://user-images.githubusercontent.com/105637541/190084550-e3ff3b6e-855a-414e-ac1b-997023ab136a.png)
@@ -63,7 +63,7 @@ git clone 주소붙여넣기(shift+insert)
 ~~~Ruby
 cd "C:\Users\user\Desktop\Git\username.github.io"
 
-chcp 65001 (명령어에서 발생하는 오류를 방지합니다.)
+chcp 65001 (명령어에서 발생하는 오류를 방지합니다)
 
 gem install bundler
 gem install jekyll
@@ -87,8 +87,19 @@ git commit -m "Blog"
 git push
 ~~~
 
-### username.github.io로 접속합니다!
+### username.github.io로 접속합니다!  
 
+### ※ git push 과정에서 github 에러가 날 경우, username.github.io 폴더의 _config.yml을 열어줍니다. 
+~~~
+#theme: jekyll-theme-hydejack
+remote_theme: hydecorp/hydejack@v9
+
+theme 부분을 찾아 위와 같이 바꿔줍니다. 
+
+로컬에서 확인할 때는,
+theme: jekyll-theme-hydejack
+#remote_theme: hydecorp/hydejack@v9
+~~~
 
 
 
