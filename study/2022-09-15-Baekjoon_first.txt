@@ -4,6 +4,7 @@ title: 단계별로 풀어보기 입출력과 사칙연산 - 1_2557번
 subtitle: 내 연구,논문 공부등
 date: '2022-09-15 13:56:51 +0900'
 categories:
+    - study
     - baekjoon
 tags:
     - baekjoon
