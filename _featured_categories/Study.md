@@ -4,6 +4,9 @@ layout: list
 
 type: category
 
+menu: true
+submenu: true
+
 # The title of the tag's page.
 title: Study
 
@@ -19,7 +22,7 @@ description: >
 
 # Exclude this example category from the sitemap.
 # DON'T USE THIS SETTING IN YOUR CATEGORIES!
-sitemap: false
+sitemap: true
 ---
 
 *[Baekjoon]{:.heaeing.flip-tilte} --- 백준 문제 풀이
