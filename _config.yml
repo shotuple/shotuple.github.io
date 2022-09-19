@@ -51,8 +51,8 @@ menu:
     url:               /blog/
   - title:             Study
     url:               /study/
-  - title: Baekjoon
-    url: /baekjoon/
+  - title:	Baekjoon
+    url:	/baekjoon/
   - title:             Example
     url:               /example/
   - title:             Documentation
