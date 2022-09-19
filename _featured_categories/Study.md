@@ -26,5 +26,7 @@ sitemap: true
 ---
 
 [Baekjoon]{:.heaeing.flip-tilte} --- 백준 문제 풀이
+[Python]{:.heaeing.flip-tilte} --- 파이썬
 
 [Baekjoon]: /baekjoon/
+[Python]: /python/
