@@ -27,4 +27,4 @@ sitemap: true
 
 [Baekjoon]{:.heaeing.flip-tilte} --- 백준 문제 풀이
 
-[Baekjoon]: study/baekjoon/
+[Baekjoon]: /baekjoon/
