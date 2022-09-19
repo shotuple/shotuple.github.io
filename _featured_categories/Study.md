@@ -22,10 +22,11 @@ description: >
 
 # Exclude this example category from the sitemap.
 # DON'T USE THIS SETTING IN YOUR CATEGORIES!
-sitemap: true
+sitemap: false
 ---
 
-[Baekjoon]{:.heaeing.flip-tilte} --- 백준 문제 풀이
+[Baekjoon]{:.heaeing.flip-tilte} --- 백준 문제 풀이  
+
 [Python]{:.heaeing.flip-tilte} --- 파이썬
 
 [Baekjoon]: /baekjoon/
