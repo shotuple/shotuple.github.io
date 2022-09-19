@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: list
 category: baekjoon
 bigtitle: Baekjoon
 description: >
