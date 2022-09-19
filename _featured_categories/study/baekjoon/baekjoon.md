@@ -1,6 +1,6 @@
 ---
 layout: post
-category: study
+category: baekjoon
 bigtitle: Baekjoon
 description: >
   백준 문제 풀이
