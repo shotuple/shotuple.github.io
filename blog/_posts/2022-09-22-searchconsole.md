@@ -39,7 +39,9 @@ sitemap: false
 
 ## 2. Sitemap.xml 만들고 push합니다.
 ### root 경로에 sitemap.xml 파일을 만들어줍니다.
-```txt
+<pre>
+<code>
+{% raw %}
 ---
 layout: null
 ---
@@ -69,7 +71,9 @@ layout: null
     </url>
   {% endfor %}
 </urlset>
-```
+{% endraw %}
+</code>
+</pre>
 <br/>
 
 ## 3. sitemap.xml 등록하기
