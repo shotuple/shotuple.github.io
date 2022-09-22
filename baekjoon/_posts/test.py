@@ -1,8 +1,12 @@
-A, B = map(int, input().split())
+a, b = map(int, input().split())
+c = int(input())
 
-if A>B:
-    print(">")
-elif A<B:
-    print("<")
-else:
-    print("==")
+a += c // 60
+b += c % 60
+
+if b>=60:
+  a += 1
+  b -= 60
+if a >= 24:
+  a -= 24
+print(a,b)
