@@ -23,7 +23,7 @@ sitemap: false
 
 [Baekjoon]{:.heaeing.flip-tilte} --- 백준 문제 풀이  
 
-[Python]{:.heaeing.flip-tilte} --- 파이썬
+[MySQL]{:.heaeing.flip-tilte} --- SQL
 
 [Baekjoon]: /baekjoon/
-[Python]: /python/
+[MySQL]: /mysql/

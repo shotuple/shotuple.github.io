@@ -1,11 +1,6 @@
-X = int(input())
-N = int(input())
-R = int()
+import sys
 
+N = int(input()) #Test case
 for i in range(N):
-  A, B = map(int, input().split())
-  R += A*B
-if X == R:
-  print("Yes")
-elif X != R:
-  print("NO")
+        a,b = map(int, sys.stdin.readline().split())
+        print(a+b)
