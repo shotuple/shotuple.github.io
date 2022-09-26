@@ -1,12 +1,11 @@
-a, b = map(int, input().split())
-c = int(input())
+X = int(input())
+N = int(input())
+R = int()
 
-a += c // 60
-b += c % 60
-
-if b>=60:
-  a += 1
-  b -= 60
-if a >= 24:
-  a -= 24
-print(a,b)
+for i in range(N):
+  A, B = map(int, input().split())
+  R += A*B
+if X == R:
+  print("Yes")
+elif X != R:
+  print("NO")
