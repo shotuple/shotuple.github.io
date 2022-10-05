@@ -3,14 +3,14 @@
 layout: list
 
 # The title of the tag's page.
-title: Study
+title: DA
 
 # The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
-slug: study
+slug: Data Analysis
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  공부에 대해 기록합니다.
+  백준 문제 풀이
 
 # (Optional) You can disable grouping posts by date.
 # no_groups: true
@@ -19,14 +19,3 @@ description: >
 # DON'T USE THIS SETTING IN YOUR CATEGORIES!
 sitemap: false
 ---
----
-
-[Baekjoon]{:.heaeing.flip-tilte} --- 백준 문제 풀이  
-
-[MySQL]{:.heaeing.flip-tilte} --- SQL
-
-[DA]{:.heaeing.flip-tilte} --- Data Analysis
-
-[Baekjoon]: /baekjoon/
-[MySQL]: /mysql/
-[Data]: /da/
