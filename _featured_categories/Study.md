@@ -29,4 +29,4 @@ sitemap: false
 
 [Baekjoon]: /baekjoon/
 [MySQL]: /mysql/
-[Data]: /da/
+[DA]: /da/
