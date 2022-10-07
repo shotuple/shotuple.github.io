@@ -25,8 +25,11 @@ sitemap: false
 
 [MySQL]{:.heaeing.flip-tilte} --- SQL
 
+[SQLP]{:.heaeing.flip-tilte} --- SQLP 자격증 공부
+
 [DA]{:.heaeing.flip-tilte} --- Data Analysis
 
 [Baekjoon]: /baekjoon/
 [MySQL]: /mysql/
+[SQLP]: /sqlp/
 [DA]: /da/
