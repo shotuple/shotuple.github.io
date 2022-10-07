@@ -1,39 +1,34 @@
-# A = map(int,list(input().split()))
-# A = list(map(int, input().split()))
-# print(next(A))
-# print(next(A))
-# print(next(A))
+num = N = int(input())
+cnt = 0
 
-n,x=map(int,input().split())
-#a=map(int,list(input().split()))
-a = list(map(int, input().split()))
-for i in a:
-    if i<x:
-        print(i,end=" ")
+while True:
+    a = num//10 # 10의 자리
+    b = num%10 # 1의 자리
+    c = (a+b)%10 
+    num = (b*10)+c
+
+    cnt+=1
+    if(num==N):
+        break
+print(cnt)
+
+input_num = temp = int(input())
+cnt = 0
+
+while True:
+    num1 = temp // 10
+    num2 = temp % 10
+    sum_num = num1 + num2
+    
+    temp = int(str(num2) + str(sum_num % 10))
+    
+    cnt += 1
+    
+    if input_num == temp:
+        break
+    
+print(cnt)
 
 
-# <Tabs>
-# <TabItem label="내 풀이">
-
-# ```py
-# N, X = map(int, input().split())
-# A = list(map(int, input().split()))
-
-# for i in range(N):
-#     if A[i] < X:
-#         print(A[i], end=" ")
-# ```
-
-# </TabItem>
-# <TabItem label="다른 풀이">
-
-# ```py
-# n,x=map(int,input().split())
-# #a=map(int,list(input().split()))
-# a = list(map(int, input().split()))
-# for i in a:
-#     if i<x:
-#         print(i,end=" ")
-# ```
-
-# </TabItem>
+        
+    
