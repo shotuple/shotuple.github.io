@@ -1,34 +1,14 @@
-num = N = int(input())
-cnt = 0
+import sys
+C = int(sys.stdin.readline())
 
-while True:
-    a = num//10 # 10의 자리
-    b = num%10 # 1의 자리
-    c = (a+b)%10 
-    num = (b*10)+c
+for _ in range(C):
+    A = list(map(int, sys.stdin.readline().split()))
+    cnt = 0
 
-    cnt+=1
-    if(num==N):
-        break
-print(cnt)
-
-input_num = temp = int(input())
-cnt = 0
-
-while True:
-    num1 = temp // 10
-    num2 = temp % 10
-    sum_num = num1 + num2
+    for i in range(1, len(A)):
+        if A[i] > sum(A[1:])/A[0]:
+            cnt += 1
     
-    temp = int(str(num2) + str(sum_num % 10))
-    
-    cnt += 1
-    
-    if input_num == temp:
-        break
-    
-print(cnt)
-
-
-        
-    
+    rate = (cnt/A[0]*100)
+    #print('%.3f%%'%rate) 
+    print('%.3f' % rate + '%')
