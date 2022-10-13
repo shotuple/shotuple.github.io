@@ -51,8 +51,8 @@ menu:
     url:               /blog/
   - title:             Study
     url:               /study/
-  - title:             Security
-    url:               /security/    
+  - title:             News
+    url:               /news/
   - title:             About
     url:               /about/
 
