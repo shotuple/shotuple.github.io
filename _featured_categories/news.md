@@ -10,7 +10,7 @@ slug: news
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  Security News를 체크합니다.
+  News check
 
 # (Optional) You can disable grouping posts by date.
 # no_groups: true
