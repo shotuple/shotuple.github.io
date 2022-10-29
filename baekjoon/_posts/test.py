@@ -1,14 +1,20 @@
-import sys
-C = int(sys.stdin.readline())
+# S = input()
+# A = []
+# cnt = 0
 
-for _ in range(C):
-    A = list(map(int, sys.stdin.readline().split()))
-    cnt = 0
-
-    for i in range(1, len(A)):
-        if A[i] > sum(A[1:])/A[0]:
-            cnt += 1
+# for i in S:
+#     A.append((ord(i)-63))
+#     print(A)
+#     for j in A:
+#         cnt += j
     
-    rate = (cnt/A[0]*100)
-    #print('%.3f%%'%rate) 
-    print('%.3f' % rate + '%')
+# #print(cnt)
+
+S = input()
+dial = ["ABC", "DEF", "GHI", "JKL", "MNO", "PQRS", "TUV", "WXYZ"]
+cnt = 0
+for i in range(len(S)):
+    for j in dial:
+        if S[i] in j:
+            cnt += dial.index(j)+3
+print(cnt)
