@@ -342,7 +342,8 @@ plugins:
   - jekyll-titles-from-headings
   - jekyll-include-cache
   - jekyll-last-modified-at
-
+  - jekyll-kramdown
+  - jekyll-rouge
 
 # SEO Tag
 # ---------------------------------------------------------------------------------------
@@ -440,6 +441,7 @@ tipue_search:
     tags: []
 
 # ---
+markdown: kramdown
 kramdown:
     highlighter: rouge
     syntax_highlighter_opts:
