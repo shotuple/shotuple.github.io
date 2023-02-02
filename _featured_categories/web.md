@@ -3,14 +3,13 @@
 layout: list
 
 # The title of the tag's page.
-title: Study
+title: WEB
 
 # The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
-slug: study
-
+slug: web
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  공부에 대해 기록합니다.
+  WEB
 
 # (Optional) You can disable grouping posts by date.
 # no_groups: true
@@ -19,23 +18,3 @@ description: >
 # DON'T USE THIS SETTING IN YOUR CATEGORIES!
 sitemap: false
 ---
----
-
-[Baekjoon]{:.heaeing.flip-tilte} --- 백준 문제 풀이
-
-[WEB]{:.heaeing.flip-tilte} --- WEB
-
-[SQL Injection]{:.heaeing.flip-tilte} --- SQL Injection
-
-[MySQL]{:.heaeing.flip-tilte} --- SQL
-
-[SQLP]{:.heaeing.flip-tilte} --- SQLP 자격증 공부
-
-[DA]{:.heaeing.flip-tilte} --- Data Analysis
-
-[Baekjoon]: /baekjoon/
-[WEB]: /web/
-[SQL Injection]: /injection/
-[MySQL]: /mysql/
-[SQLP]: /sqlp/
-[DA]: /da/
