@@ -23,7 +23,7 @@ sitemap: false
 
 [Baekjoon]{:.heaeing.flip-tilte} --- 백준 문제 풀이
 
-[WEB]{:.heaeing.flip-tilte} --- WEB
+[WEB]{:.heaeing.flip-tilte} --- Web
 
 [SQL Injection]{:.heaeing.flip-tilte} --- SQL Injection
 
@@ -34,7 +34,7 @@ sitemap: false
 [DA]{:.heaeing.flip-tilte} --- Data Analysis
 
 [Baekjoon]: /baekjoon/
-[WEB]: /web/
+[Web]: /web/
 [SQL Injection]: /injection/
 [MySQL]: /mysql/
 [SQLP]: /sqlp/
