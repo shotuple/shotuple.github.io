@@ -40,7 +40,7 @@ logo:                  /assets/img/blog/prof.jpg
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`
-  name:                WOO SEOK YIM
+  name:                Wooseok Yim
   email:                shotuple@gmail.com
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
@@ -165,6 +165,13 @@ kramdown:
   math_engine_opts:    {}
   footnote_backlink:   '&#x21a9;&#xfe0e;'
 
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
 
 # 3rd Party Integrations
 # ----------------------------------------------------------------------------------------
@@ -212,7 +219,7 @@ hydejack:
   # Set to `true` if you don't to use the auto-hiding (JavaScript based) navbar.
   # Note that this will not hide the navbar completely, only replace it with a static one.
   # Use custom css to hide completely, e.g. `#_navbar { display: none }`.
-  no_navbar:           false
+  no_navbar:           true
 
   # Set to true to disable the built-in search functionality.
   # Note that search is disabled during local use to save on build time.
